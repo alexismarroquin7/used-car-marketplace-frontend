@@ -1,0 +1,98 @@
+{
+  "car_makes": [
+    {
+      "car_make_id": 1,
+      "car_make_name": "Toyota"
+    },
+    {
+      "car_make_id": 2,
+      "car_make_name": "Honda"
+    },
+    {
+      "car_make_id": 3,
+      "car_make_name": "Ford"
+    }
+  ],
+  "car_models": [
+    {
+      "car_model_id": 1,
+      "car_model_name": "Odessey",
+      "car_make_id": 2
+    },
+    {
+      "car_model_id": 2,
+      "car_model_name": "Accord Hybrid",
+      "car_make_id": 2
+    },
+    {
+      "car_model_id": 3,
+      "car_model_name": "Accord",
+      "car_make_id": 2
+    },
+    {
+      "car_model_id": 4,
+      "car_model_name": "Tacoma",
+      "car_make_id": 1
+    },
+    {
+      "car_model_id": 5,
+      "car_model_name": "Camry",
+      "car_make_id": 1
+    },
+    {
+      "car_model_id": 6,
+      "car_model_name": "Escape",
+      "car_make_id": 3
+    },
+    {
+      "car_model_id": 7,
+      "car_model_name": "Explorer",
+      "car_make_id": 3
+    },
+    {
+      "car_model_id": 8,
+      "car_model_name": "Mustang",
+      "car_make_id": 3
+    }
+  ],
+  "car_types": [
+    {
+      "car_type_id": 1,
+      "car_type_name": "suv"
+    },
+    {
+      "car_type_id": 2,
+      "car_type_name": "sedan"
+    },
+    {
+      "car_type_id": 3,
+      "car_type_name": "truck"
+    },
+    {
+      "car_type_id": 4,
+      "car_type_name": "coupe"
+    }
+  ],
+  "posts": [
+    {
+      "car": {},
+      "car_details": {},
+      "user": {},
+      "address": {}
+    }
+  ],
+  "users": [
+    {
+      "user_id": 1,
+      "user_first_name": "Keegan",
+      "user_last_name": "Skiles",
+      "user_email": "kskiles@email.com",
+      "user_phone_number": "1231231234",
+      "user_password": "1234567890",
+      "role": {
+        "role_id": 1,
+        "role_name": "user"
+      }
+    }
+  ]
+}
